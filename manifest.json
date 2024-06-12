@@ -1,0 +1,15 @@
+{
+    "manifest_version":3,
+    "name":"Translator",
+    "version":"1.0",
+    "description":"A translator",
+    "permissions":[
+        "activeTab",
+        "scripting"
+    ],
+    "background":{
+        "service_worker":"background.js"
+    },"action":{
+        "default_popup":"index.html"
+    }
+}
