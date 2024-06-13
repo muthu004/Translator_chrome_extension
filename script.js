@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     languages.forEach(lang => {
         const choices=document.createElement('option')
         choices.value=lang.code;
-        choices.textContent=lang.name;
+        choices.innerText=lang.name;
         selectLanguage.appendChild(choices)
     });
 
