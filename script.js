@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     const selectLanguage=document.getElementById('language');
     languages.forEach(lang => {
-        const option=document.createElement('option')
-        option.value=lang.code;
-        option.textContent=lang.name;
-        selectLanguage.appendChild(option)
+        const choices=document.createElement('option')
+        choices.value=lang.code;
+        choices.textContent=lang.name;
+        selectLanguage.appendChild(choices)
     });
 
 
